@@ -3,25 +3,25 @@ ul.nav {
   margin: 0;
   padding: 0.5rem;
   overflow: hidden;
-  background-color: $nav-1;
-  background-image: $nav-gradient;
+  background-color: $nav-bg;
+  font-family: "Roboto Slab", serif;
 
   li {
     float: left;
 
     a {
       display: block;
-      color: black;
+      color: $nav-item-text;
       text-align: center;
       padding: 0.5rem 1rem;
       text-decoration: none;
       margin-right: 0.3rem;
-      border-radius: 0.2rem;
+      margin-left: 0.2rem;
     }
 
     a:hover {
-      background-color: $semi-black;
-      color: white;
+      background-color: $nav-item-hover-bg;
+      color: $nav-item-hover-text;
     }
   }
 }

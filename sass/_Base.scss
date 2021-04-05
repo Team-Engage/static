@@ -5,6 +5,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   font-family: 'Roboto', sans-serif;
+  color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -17,8 +18,18 @@ div.content {
 
 a {
   color: $primary-2;
+  text-decoration: none;
 }
 
 a:hover {
   color: $primary-3;
+}
+
+span.author {
+  color: $tertiary-4;
+}
+
+svg {
+  stroke: black;
+  fill: black;
 }

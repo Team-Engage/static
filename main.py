@@ -11,7 +11,10 @@ env = Environment(
 )
 
 templates_list = [
-  "index.html"
+  "index.html",
+  "chat.html",
+  "forums.html",
+  "post.html"
 ]
 
 
@@ -61,4 +64,4 @@ def run(build=True):
 
 
 if __name__ == "__main__":
-  run(build=True)
+  run()

@@ -1,0 +1,20 @@
+table {
+  background-color: white;
+  width: 50rem;
+  border-collapse: collapse;
+  border-radius: 0.2rem;
+}
+
+th {
+  background-color: $primary;
+  padding: 0.5rem;
+}
+
+td {
+  padding: 0.5rem;
+  border-bottom: 0.1rem solid #ddd;
+}
+
+tr:hover {
+  background-color: $primary-1;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Chat | Engage Static</title>
+  {% include "head.html" %}
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.3/socket.io.min.js"></script> -->
+</head>
+
+<body>
+  {% include "nav.html" %}
+  <div class="chat">
+  <ul id="chat-msgs"></ul>
+
+  <form id="chat-form" action="">
+    <input id="chat-input" type="text" autocomplete="off" placeholder="Enter Message Here...">
+    <button onclick="add_msg('test')">Submit</button>
+  </form>
+  </div>
+
+  <script src="static/chat.js"></script>
+</body>
+
+</html>
